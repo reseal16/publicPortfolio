@@ -1,2 +1,0 @@
-# tekcamp
-Tek Camp Repository

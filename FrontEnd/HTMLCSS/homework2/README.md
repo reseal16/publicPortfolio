@@ -1,1 +1,0 @@
-https://www.w3schools.com/css/css_rwd_mediaqueries.asp for responsive web design to put CSS for mobile and desktop on the same stylesheet
