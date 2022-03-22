@@ -1,0 +1,1123 @@
+commit b2e8b8b04f15441e0616c2e47c498c4906efab0c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 17 07:43:04 2022 -0500
+
+    Update to fix logic error when attempting to build single item from scratch
+
+commit 2c8ab6929e4c77fba4fdddbef52bb1eca57a084b
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 17 07:35:04 2022 -0500
+
+    Add scratch fish builder
+
+commit 1021791aef924a9ef135e286a1acced0ee3f275c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 17 07:07:40 2022 -0500
+
+    Update basic decision tree to include individual items
+
+commit 2e5227dd4affdaaadc62f3f0dc2a2cc287c62029
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 17 07:04:34 2022 -0500
+
+    Add basic logic to decision tree
+
+commit 93d8bc4883f2b14278780ae9fbce1f8ddedeb453
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 17 06:40:32 2022 -0500
+
+    Add functionality to store orders
+
+commit 37709d345e57675f99a84b354aff4d271c8ec609
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 17 06:10:49 2022 -0500
+
+    Update git log with recent commits
+
+commit 37976c50233550e9e08b1a948dfea1bbaabf8fbc
+Merge: 219f9e7 3af0ff6
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 17 04:43:14 2022 -0500
+
+    Merge branch 'capstoneTwoPOS' into develop
+
+commit 3af0ff695ca749b371e2a8291381bf82a2d4e13f
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 17 03:38:09 2022 -0500
+
+    Add UI function to select items and combos through console
+
+commit 121459e262c276225732094406b3de577333b392
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 16 22:16:31 2022 -0500
+
+    Add combo builder to simplify preselected meals
+
+commit 6a7dd617886a8b042f95928761bcbbd71a426003
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 16 21:57:09 2022 -0500
+
+    Add constructors for drinks, sides, fish, and combos
+
+commit 2f376800232cff6e3211491885b83b178969d6bb
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 16 21:19:46 2022 -0500
+
+    Reorganize files prior to refactor
+     Update customization class with clearly defined getters and setters.
+    Begin writing constructor class for fish
+
+commit 83b861395a338d0dff47d86f747b4927f3bb4898
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 16 01:02:28 2022 -0500
+
+    Add user interaction to sammich builder
+
+commit b3e33c04ddef44f792c29c2c5324ef58b1cd8861
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 16 01:01:55 2022 -0500
+
+    Add user interaction to side options
+
+commit 47391b0102eda727c4a51cb31839b9e5271009cb
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 16 00:19:04 2022 -0500
+
+    Add user interaction to fillet builder
+
+commit ab61bfd7df109f7be07cb18597c30c336ccbac56
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Mar 15 23:45:43 2022 -0500
+
+    Add user interaction to nugget builder
+
+commit 69b4329bba146a0b757d82df1fa79a04e3c4afae
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Mar 15 23:08:31 2022 -0500
+
+    Complete drink customization
+
+commit 895aa6436cfa3bffff73aaad5b48d40e26fac38c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Mar 15 15:47:34 2022 -0500
+
+    Move entree builders to buildEntree pkg to clean up file structure
+
+commit e311f5eb81871ce27e39dc78e7301364d89da261
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Mar 15 07:21:35 2022 -0500
+
+    Add frog leg builder
+
+commit 86f0a327969a80fa4a5bc9015fa57e2e678ea2fc
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Mar 15 07:19:00 2022 -0500
+
+    Add fillet builder
+
+commit c40f17479924f7f9ddc3eeae166eaf49c356442e
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Mar 15 07:09:13 2022 -0500
+
+    Add nugget builder
+
+commit 81c48c1282171b3e988f1b9d62e63716ac13926d
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Mar 14 22:54:32 2022 -0500
+
+    Refactor combo builder to incorporate entree builder
+
+commit ac008491257a5c2ba1c2c29799bec4f824e48d42
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Mar 14 18:35:32 2022 -0500
+
+    Create entree builder to allow entree customization
+
+commit bc40cc6b9a296fb1e7fd982ed212e41f1f8107ca
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Mar 14 15:48:29 2022 -0500
+
+    Update new UML to include menu. Add entree customization.
+
+commit 37f7077cfda18bc9ad7e6e1b92e626b7f68b1a56
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Mar 14 02:32:26 2022 -0500
+
+    Update menu item classes to remove redundant variables
+
+commit a5c1a5f667c0401dc228dd340de72234b7610be4
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Mar 14 02:27:34 2022 -0500
+
+    Apply abstraction to meal combos
+
+commit 533e10cef367baf494c0b9966a2e65261868e836
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Mar 14 01:04:30 2022 -0500
+
+    Add new meal, fish sammich combo
+
+commit 3c5910613cd62249eabf47cd1b12f85594e8d669
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Mar 14 00:50:54 2022 -0500
+
+    Add new meal, grammas fave
+
+commit 34197c12a31ef775441355f47c7c31da34aee5d6
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Mar 14 00:50:32 2022 -0500
+
+    Add side to GrampasCatch
+
+commit 8b8b4dfc086ab9f1e33544f619d03d020494bdc9
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Mar 14 00:49:45 2022 -0500
+
+    Add additional side options
+
+commit 366a2eafc9b6a5cbca1909ede9f9cbaea959f47f
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Mar 13 03:22:47 2022 -0500
+
+    Add menu items to drinks and entrees
+
+commit a5de582e71162a87a3f3fb868792fba6cd2164cb
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Mar 13 03:21:56 2022 -0500
+
+    Updated GrampasCatch to build basic meal
+
+commit cd75860a52bac47bb7b7a997a71cf34b7467b961
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Mar 13 01:55:23 2022 -0600
+
+    Add GrampasCatch as an extension of BuildMeal
+
+commit a72ef1a344a4c7085a70a77cbbfe14d6ff99ffa7
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Mar 13 01:54:16 2022 -0600
+
+    Add mealBuilding package to contain preselected meals
+
+commit 330f4a122e3181bafde24ab07aadd83541cddf2a
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Mar 13 01:53:10 2022 -0600
+
+    Add menuOptions package to contain individual items on the menu
+
+commit adbb2c6a7fe57409d1bf452840a209c6f838bc8f
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Mar 13 01:50:43 2022 -0600
+
+    Add initial sides class to menuOptions
+
+commit 841b62b891133ded7f259eb219c726da55b8238d
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Mar 13 01:50:08 2022 -0600
+
+    Add initial drinks class to menuOptions
+
+commit 15f9cb213fc3cd40f97dcae628d028474192774e
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Mar 13 01:49:11 2022 -0600
+
+    Add entrees class to menuOptions pkg
+    Entrees class added with basic options for MVP
+
+commit 675ab643438b73884bfce01ce6b7c5ad5f430182
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 19:00:03 2022 -0600
+
+    Add UML diagram for one meal
+
+commit e11eeec93c88b69503819cd440db464cee2084c5
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 18:09:43 2022 -0600
+
+    Delete unnecessary app file
+
+commit f38c5142af52e023280375f075a665fe11ee1b28
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 18:08:43 2022 -0600
+
+    Panic cry for 30 mins, cuddle the cat, scrap everything and start over
+
+commit d4ac82db7e605b0da60b20e90b293a0a32a19530
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 16:52:53 2022 -0600
+
+    Correct improperly formatted args in Receipt class
+
+commit 44251d1cc49cb21861d21b3188b4c695234b3c02
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 16:52:04 2022 -0600
+
+    Remove unnecessary JSON file
+
+commit 2835682bae178247093c2f5155bb376cc4d01178
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 16:39:33 2022 -0600
+
+    Add customization options to entree enum
+
+commit d4236ac03ccb0d90a2e2f4a68f5c9087de63f249
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 16:38:43 2022 -0600
+
+    Update receipt class with initial method to build receipt
+
+commit 73f5e9a1bb8069f7fadd9429436d312c9ceae66a
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 16:37:45 2022 -0600
+
+    Add receipt class to output receipt info after order is placed
+
+commit 0303418e528fe76c2abdf0aba97562cf84193c38
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 02:54:54 2022 -0600
+
+    Move sides from SelectSide to SideOptions enum
+
+commit fb5b43accf9c69578b00fc412f1d3c4d4a6053ee
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 02:53:01 2022 -0600
+
+    Move deserts from SelectDessert to DessertOption enum
+
+commit 763231204dae835807d2db3f9970366e17740a69
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 02:50:41 2022 -0600
+
+    Move entrees from class to enum
+
+commit ed47897834bba45ee40cc98a1930580558b41510
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 02:12:01 2022 -0600
+
+    Remove redundant class SelectDrink
+
+commit 73592c59485605d1fe824bb51d2cfcac5b51663a
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 02:11:09 2022 -0600
+
+    Add options to drinkoptions enum
+
+commit 34e95c6e29eb9c2044fc16ab089cff5bfcd163f6
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 02:10:05 2022 -0600
+
+    Update README with enum resources
+
+commit 3ceed77e497e5ed993f575e8c6d1d2c8ba0be2b1
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 12 02:09:26 2022 -0600
+
+    Add enum for drink options
+
+commit 7e41028b81e1ab4ab8cb67914e367e914203512b
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 06:49:08 2022 -0600
+
+    Update readme with reference info for Java class list
+
+commit 64607742b3a9b101a6e9fe51c208f737a3d45b34
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 06:47:27 2022 -0600
+
+    Move side options to dedicated class
+
+commit 5ad05df4a1bf32ed933bf8d0a11144738ecfa4c4
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 06:46:56 2022 -0600
+
+    Move entree options to dedicated class
+
+commit aa114d30326bc86c66b6f2ad3462e91ced7b2b75
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 06:46:17 2022 -0600
+
+    Move drink options to dedicated class
+
+commit 379c53f26d2150f604290b5e397c3319ddbf0e4f
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 06:45:40 2022 -0600
+
+    Move dessert options to dedicated class
+
+commit 28ffcd464f2cdf19b8a518329a7a897f7e51c015
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 06:44:54 2022 -0600
+
+    Moved CustomizeFood to menuItems package to consolidate files
+
+commit dcf45f1ca2e64cc08cadc8e8338b6e2be9b53e7a
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 06:43:56 2022 -0600
+
+    Update method call in Main to match class name for SelectEntree
+
+commit a491105fd702fa90852d4b59a5260ce6828db6ba
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 06:43:07 2022 -0600
+
+    Update method call to match class name for SelectEntree
+
+commit 335f8f16eb98a4868365cb00b2f5d079ced38e6a
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 06:41:36 2022 -0600
+
+    Add selectDessert method in interface
+
+commit 7b8ed3a7535b6c4d6d5b5e3f03a74facb0b3e075
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 06:40:22 2022 -0600
+
+    Add custom options for ice tea
+
+commit 23d28078be8cd41ca157bb89bd088d215d8fbcbc
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 00:55:53 2022 -0600
+
+    Add empty json file for potential data storage
+
+commit 7e5d17ac725ed534a3348b8b6c48d1094c81820c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 00:54:47 2022 -0600
+
+    Update main to pass args to FoodItems and CustomizeFood
+
+commit 2af4ac9a96475aff631be668da3bf5fc6c42ccf2
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 00:53:59 2022 -0600
+
+    Update interface from 2d array to string to simplify arg passing
+
+commit 262fcde216fa7fc7d67009173de310742f41940b
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 00:53:07 2022 -0600
+
+    Update CustomizeFood to static to be compatible with Main method
+
+commit 1eb952d0f4b8c1e2bcc2aee624cd69e57855c494
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 00:01:52 2022 -0600
+
+    Add basic functionality to SelectItem
+
+commit 8ea3cbe524e1c164a7c6d54a2b30f30bd765c39c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 00:01:15 2022 -0600
+
+    Add basic functionality to Main class/method
+
+commit 898ba9651f0d6b4351ffa0a44213832b8a786ab9
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 11 00:00:33 2022 -0600
+
+    Add temporary data to FoodItems
+
+commit 8a596699828ceb7409c64968ead459ba3ffaf701
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 23:59:10 2022 -0600
+
+    Add temporary data to CustomizeFood class
+
+commit eebdb01a17f6abafb85595358bc8ec7a41200e33
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 23:57:26 2022 -0600
+
+    Update README with note about the spelling of grampa
+
+commit 8c52e62db93c6eefa834556cd54e4fc95e0cc5c4
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 23:56:09 2022 -0600
+
+    Update name of CurrentSelection to be more concise
+
+commit 67582c0108dd509899cca0ed235d39ddda22c941
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 22:48:00 2022 -0600
+
+    Move UML and README to capstone2 folder to simplify folder structure
+
+commit abb38dfcdbafda6e63a02ec6d237f06e037fb797
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 22:46:25 2022 -0600
+
+    Add basic methods and classes to grampasFishFry POS program
+
+commit 036d0fa91052b8ee690e5e7db348196f57a59275
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 22:40:03 2022 -0600
+
+    Move capTwo folder to capstone2 folder to simplify file structure
+
+commit d5c1fda11f90c0dd872288dc7f3b43733710d3a8
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 22:36:53 2022 -0600
+
+    Add basic UML diagram for POS system
+
+commit 219f9e7f3c04051e2d1a72e9623d11384d05f372
+Merge: 4cb0422 737aab9
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 22:35:00 2022 -0600
+
+    Rollback changes that caused merge conflict
+
+commit 737aab935e211bfc3089f01925c89c8ed4f7aae5
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 22:28:32 2022 -0600
+
+    Clean git local, no changes.
+
+commit 771f851254b55c81e5dd33d30b0f5c01d760a754
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 07:52:47 2022 -0600
+
+    Create capstone two branch and README
+
+commit 6dfb104eaf900fcefa8eb6835514109548d9aefe
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 10 07:42:54 2022 -0600
+
+    Update to fix recursion in LocationPointer
+
+commit 4cb04222b74c85a6da74aecfb1a5fd3efc84de96
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 9 21:15:52 2022 -0600
+
+    Update main class/method to include scanner utility
+
+commit 27a1cbe6e5a3cfbbc2f2efb648c00403c02b6221
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 9 18:56:19 2022 -0600
+
+    Update git.log with current commits
+
+commit a4259745ef3f8a542aa6eb0bd5b636454243a994
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 9 18:54:18 2022 -0600
+
+    Location pointer & board generator complete
+
+commit 23cbc1875be341c1fa9d5c1908633bc4dec0aa5e
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 9 11:25:32 2022 -0600
+
+    Update readme file
+
+commit e32317a582fc3d84f41979a4dda0e53f75cdbe7b
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 9 11:13:31 2022 -0600
+
+    complete factorByTwo exercise sans testing
+
+commit 7530bbd8b782d26304f9ca177bd5f25b9ef03f34
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 9 03:31:12 2022 -0600
+
+    Restructure cap1 folders
+
+commit 7a43b9fc306fde30d365e8848ff639b86883b52a
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 9 03:28:18 2022 -0600
+
+    Update to all classes for factorByTwo exercise
+
+commit 662374b56fb091ab8e92024f55ab624ae1417672
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Mar 9 00:08:48 2022 -0600
+
+    Create classes for factorByTwo exercise as defined in the instructions
+
+commit 1712a813638d681eeca1b73d1c9aa855f2ed4291
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 5 12:52:54 2022 -0600
+
+    Format code for easy readability
+
+commit 4f3f287a7bd05f9d9aa5664b03c1ada9db985312
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 5 01:14:43 2022 -0600
+
+    Add git log to display commits for java exercises. Remove extra comments in CharFinder to ensure code is clean
+
+commit 5b728f1d1b39cb9010f4b9045e0f3a54d091ed32
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 5 01:10:05 2022 -0600
+
+    Add method to search string for chars and return unique char position
+
+commit f453724c89ac059e0740ac5b7eabd24797554451
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Mar 5 00:15:04 2022 -0600
+
+    Add method to parse string to char[] so char arrays can be searched for duplicate values
+
+commit 6b98b4ddbb7450e0aa9f6b2d7f8ea5458fbf9a45
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 4 10:16:41 2022 -0600
+
+    Add scanner to CharFinder
+    Allow program to scan for input
+
+commit 6fd34b6f75176c0982b0d80a061a1d56bb3d9112
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 4 08:51:15 2022 -0600
+
+    Add basic structure and methods for exercise 2
+    Add methods, create variables, import scanner, and assign method to variables
+
+commit d4bb63cead17f000571ef80ba058b93f527975cd
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 4 08:03:42 2022 -0600
+
+    Add method addNumber to calculate running total
+
+commit 01eb0f190c738ea445a997778944fd257ebbac54
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Mar 4 07:11:34 2022 -0600
+
+    Restructure files
+    Move java exercises to correct file location specified by lab prompt
+
+commit ce3a26ad81f20b124f0a41664623797e405e5cc1
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 3 22:01:36 2022 -0600
+
+    Add git log for Java exercise 1
+
+commit 6cc476370a377630427144f81b70278abb2dac41
+Merge: ac890f2 fac53d7
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 3 21:58:05 2022 -0600
+
+    Merge branch 'develop' of https://github.com/reseal16/tekcamp into develop
+
+commit ac890f2c857ebc2c18ef1f45b8ed42b17b2d8d3b
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 3 21:57:40 2022 -0600
+
+    No change
+
+commit fac53d73bc181d985e0d24a582aa7dd6200d01c4
+Author: reseal16 <98142317+reseal16@users.noreply.github.com>
+Date:   Thu Mar 3 21:56:25 2022 -0600
+
+    delete package-lock.json
+    
+    remove object too large for git and code grade
+
+commit ac0d6ec475713878f8ca5e59a04ff8dae6847aeb
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 3 21:54:36 2022 -0600
+
+    Remove unnecessary files from git repo
+    Reduce the number of unnecessary files from git to lower capacity pushed to codegrade
+
+commit 5b5b745abe848d4e62c87aecfa691a0f9ee1f8d9
+Merge: a00c6c9 4709072
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 3 21:37:37 2022 -0600
+
+    Merge branch 'JavaStart' into develop
+
+commit 4709072e3dfbeb17281f2cb05d132925271fc913
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 3 21:37:09 2022 -0600
+
+    Feat: Number aggregator
+    add do-while loop to number aggregator to keep running total
+
+commit 68c56d16924c93938ed601046459e3a42f2cfb62
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Mar 3 20:04:16 2022 -0600
+
+    Add expression to calculate total after input
+
+commit ad0a91dabe3293dca1910fb8ee0ccf734091af7a
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Mar 1 20:42:32 2022 -0600
+
+    Build scanner for exercise 1
+
+commit dd05a0b9d9d3c7988bd340cfb974778d3f6935c9
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Mar 1 13:52:06 2022 -0600
+
+    Moved practice files, initial commit on java exercise 1
+
+commit e0ea8f3be96225c7d5bca4d7548229df468eca95
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 25 23:07:11 2022 -0600
+
+    practice for section 3
+
+commit ed6fdfe32de7a0b98fe7141313707a0674ef1ce2
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 25 21:58:44 2022 -0600
+
+    Fix files
+
+commit 1b079093cba1035d6f0b95fa61726f9a5ba981e4
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 25 21:57:44 2022 -0600
+
+    Stuff
+
+commit a00c6c96b71b39619cc7e2d64e71223452404b19
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 25 21:33:33 2022 -0600
+
+    I do a thing
+
+commit 5a4df840e2fa9e3140b3027559b2ade1faa11ff6
+Merge: 3901a15 5fc01ae
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 25 21:32:58 2022 -0600
+
+    Merge branch 'JavaStart' into develop
+
+commit 3901a15345e82aa6d4e78347e8b13b7506489af0
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 25 21:32:49 2022 -0600
+
+    Stuff n stuff
+
+commit 5fc01aec0b7edf3a84c46cf007eaab05ec60622b
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 25 21:32:03 2022 -0600
+
+    Add class
+
+commit 7ad40241ebc572b47adf19be0e8abf16c4b102e4
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 25 21:31:16 2022 -0600
+
+    file structure
+
+commit 028d5310a36bcaf5c5e7fefd337dffe72be7faa1
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 25 21:25:34 2022 -0600
+
+    Java init commit
+
+commit 3aca586423e83215b5d734a4ec06844008748246
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 25 16:24:50 2022 -0600
+
+    Actual final
+
+commit 86e070617babbe523b03ce215fe7e86939e0580f
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Feb 24 23:46:03 2022 -0600
+
+    UML Update
+
+commit 8b8136348fbafd369eb0ddffacf9a1922776c8a0
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Feb 24 22:53:17 2022 -0600
+
+    Final final submission.
+
+commit a91db1f8921e2bba87213fc37960bdeaac70e5d0
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Feb 24 22:37:15 2022 -0600
+
+    Updates to capstone, not intended for codegrade
+
+commit ddbff02c4a715b72487534f1d54f7cde468fe870
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Feb 24 22:36:13 2022 -0600
+
+    UML diagram
+
+commit ff5bca70d948449b85e22aed9fdbc81b6ad9adf6
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 21 05:46:48 2022 -0600
+
+    Final final commit
+
+commit e7c0b311b45d8243748115bbb2dbbc3abfb988a8
+Merge: 859fc06 d74f44c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 21 05:26:50 2022 -0600
+
+    Final
+
+commit d74f44c9281bbfa26cb6b66e94d981af6cf98470
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 21 05:24:48 2022 -0600
+
+    Final commit
+
+commit 859fc067f0913e6dbbee33016f2412e6d8334804
+Merge: 5eb023e ea3d2d5
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 21 05:16:38 2022 -0600
+
+    merging to dev to push to codegrade
+
+commit ea3d2d5f077428c19b7d56fca955731a9b38b306
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 21 05:13:50 2022 -0600
+
+    product page params passed successfully
+
+commit 76965e3e41ac897b3137adb36e31052ccd22e63d
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 21 04:22:45 2022 -0600
+
+    browse page complete
+
+commit 4a6f77ff3f2993ba5577e690308d32522040450c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Feb 20 23:29:51 2022 -0600
+
+    Item mapping started
+
+commit 5eb023ebc655098f54887d8fdbc4c1b29bf91e56
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Feb 20 20:21:14 2022 -0600
+
+    Git log
+
+commit 7b6c9f3cfc0652c82e03b52f0792d0c982a0acb7
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Feb 20 18:36:09 2022 -0600
+
+    Classes page
+
+commit df97f59fbdd626c275c458552d2847d0bc08f37b
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Feb 20 18:35:45 2022 -0600
+
+    Routers and navbar complete
+
+commit 683ee6bc8d30deaa13a8f0277e4b4833e073c411
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Feb 20 12:49:51 2022 -0600
+
+    Please reset
+
+commit fd0c06ca9657cd861a174203751e7660e1481359
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Feb 20 04:13:14 2022 -0600
+
+    figured out routers
+
+commit 03197e6a7000ab493d45572def2da03d94871e3f
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sun Feb 20 02:32:38 2022 -0600
+
+    Fix router install error
+
+commit 8f2af9934b898c86e7b50c194a4bc5e2b25135a6
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Fri Feb 18 00:50:09 2022 -0600
+
+    Most components complete
+
+commit c4e58d728b9195100c2c6956eba91423a3745e0e
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Thu Feb 17 01:35:05 2022 -0600
+
+    barebones navbar, browse, page title
+
+commit 324b88effb089f1de00b68cd6532cdcb0c4ebca2
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Feb 16 03:48:16 2022 -0600
+
+    navbar first iteration
+
+commit 0cc98fb545281c521349aa76236598f8836ea3fa
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Feb 15 15:21:57 2022 -0600
+
+    initial commit, cap 1
+
+commit cf8a38c575ebc2fd975b6e06a43d67b52fa2e1d4
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 19:02:10 2022 -0600
+
+    Like button
+
+commit 523ba777fa9cceb8c955e5e111070c4cdbd082e2
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 18:51:23 2022 -0600
+
+    Hooks
+
+commit 59ad1aab2dc92c3d04284349134554c03eddd43c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 17:42:31 2022 -0600
+
+    API attempt 1
+
+commit 9a07dbd07899b2db5f4fe15553aa90772a025e81
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 16:43:09 2022 -0600
+
+    additional components, incomplete
+
+commit dd3fa75ca8fcda74e42235b58e612f90c0c23d42
+Merge: a7ff7e4 0acac5e
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 16:31:36 2022 -0600
+
+    resolving conflicts
+
+commit 0acac5ea51d1528e7e62558145c6e0237844544b
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 16:30:04 2022 -0600
+
+    improved styling
+
+commit a7ff7e42f55a366b69c397c316f957398a5136f4
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 15:22:29 2022 -0600
+
+    forth time's a charm
+
+commit 1b69d7eb45987fbdcb41ef3fe03812534fc02f53
+Merge: bcdeb40 a3fc124
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 14:57:41 2022 -0600
+
+    Attempt 3
+
+commit bcdeb40493400a87722e6d6d41335ad76dea1ca8
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 14:56:25 2022 -0600
+
+    Adding stylesheet
+
+commit a3fc124a7e52babd3e9dea7f8d817573fe19e08c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 14:50:11 2022 -0600
+
+    Adding stylesheet
+
+commit 1d0117a726348816ffb4d0fabdaf54511604df5b
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 13:42:25 2022 -0600
+
+    Restructure components
+
+commit 06a198301fa0113421167de86539e15a1ea7ee33
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 12:37:08 2022 -0600
+
+    component updates
+
+commit e2c43825d297463d0089972bb085cb01ed86d4c0
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 11:19:22 2022 -0600
+
+    Updated mockup
+
+commit 9478957643d416ffc0604d45435569aadea0d226
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 09:37:08 2022 -0600
+
+    adding base components & MU/Map jpgs
+
+commit 2d8a7c4a2238a3af6917672f2df746acbb2d2aff
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 08:40:46 2022 -0600
+
+    delete duplicate app.js
+
+commit 36ca17acefab6e1891625252cabb791c4d531eec
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 14 08:39:41 2022 -0600
+
+    Start components
+
+commit 7c073b02d852a0158d32f7396bdfc89adc5143a0
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Feb 9 08:29:58 2022 -0600
+
+    rearranging files
+
+commit d6b2ab860e3aa5dcbc2ae3e55f910ee63af411ea
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Feb 9 06:40:54 2022 -0600
+
+    adding base HTML files
+
+commit 53331abebb05fef5d8475dc8d70abbe66156e628
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Feb 9 06:36:40 2022 -0600
+
+    initial commit
+
+commit 65533eb8df7b064064c2255cef6459ca6f74f176
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 7 18:26:16 2022 -0600
+
+    readme updated
+
+commit 1c81a0d38c07741c3bb17df4726ee311cf222435
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 7 18:22:37 2022 -0600
+
+    .
+
+commit f88c362d7ac1df5d09415ea883721956c10b22d4
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Feb 7 18:22:11 2022 -0600
+
+    JS assignment - Not attempted - Please see readme.md
+
+commit d0ef0456836540a8a0ffef2d6601e66032d2ff23
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Feb 2 09:01:08 2022 -0600
+
+    JS Resources moved
+
+commit 6fec92f13d8494890a2ed3c4c858e6a79b977482
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Feb 2 05:43:24 2022 -0600
+
+    Final product
+
+commit a2fb0bf2ab5d5780418044b9d6cab1e6c1aa0e1e
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Feb 1 21:53:46 2022 -0600
+
+    update name/em second PC
+
+commit 6b00b1a1f43c2609ef2a99f8f616c43d0da7a3fe
+Author: Seals <Rachel.E.Seals@nordstrom.com>
+Date:   Tue Feb 1 21:46:31 2022 -0600
+
+    buttons corrected
+
+commit 129144c98942a99683f7424791cacc22aa9b6f39
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Feb 1 20:19:39 2022 -0600
+
+    New log file
+
+commit 58dde479672dbf01e7518d14a269b8cc13f43c77
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Feb 1 20:18:35 2022 -0600
+
+    committing for move to alt PC
+
+commit d0d7f5a014f39f38cd37e8189ba52c9dd3c67275
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Tue Feb 1 08:42:49 2022 -0600
+
+    Starting mobile
+
+commit 4896eb6c7caa0a7dcbb3141382fc30ebbb06740f
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Jan 31 18:43:59 2022 -0600
+
+    Mobile complete
+
+commit 4a9f320f0b335ba3268e1789429f665b8978666c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Jan 31 17:56:56 2022 -0600
+
+    font formatting
+
+commit f15817e34476b67ca3421faffffb3c2f9ead5075
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Jan 31 17:33:19 2022 -0600
+
+    Color added
+
+commit ccade0249e63d4a480292283a6a7540b3f9aa965
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Jan 31 17:03:40 2022 -0600
+
+    Moving files
+
+commit 33f8070b7f576e1854aacd79f52da8eb7dd64dd0
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Jan 31 17:02:54 2022 -0600
+
+    Files moved
+
+commit 5f6d6a28a304be0b4505d1dd04fbf4b0d0c2d0d9
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Mon Jan 31 17:01:29 2022 -0600
+
+    stylesheet added
+
+commit dec022871ee4108dd9e28920f7cfd9abaf1a76f5
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Jan 29 23:43:39 2022 -0600
+
+    Minor code formatting.
+
+commit 64330839e59255d82d69d29a180cf2312ed11806
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Sat Jan 29 23:26:43 2022 -0600
+
+    Starting commit
+
+commit 1b7805fedf30386c6632542b1d90018cd0b6191c
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Jan 26 18:29:34 2022 -0600
+
+    No changes commit
+
+commit 63d5e755407ce2f379bfdce1ef7a3318100ffb8f
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Jan 26 18:09:53 2022 -0600
+
+    step 46, latest > undo-reset branch
+
+commit 7c48b673a76911ff83fc67ed3b6a7411fe314fa4
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Jan 26 17:49:07 2022 -0600
+
+    add notes re step 32 & 33
+
+commit 861805e05d2fe452824be9bed775fbdb9c84e4e4
+Merge: cf911f0 e62f28d
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Jan 26 17:35:06 2022 -0600
+
+    Merge branch 'updated-title' into develop
+
+commit e62f28debfaa569bf602082a9a7638093fa4f865
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Jan 26 17:23:32 2022 -0600
+
+    step 20, update title
+
+commit cf911f02d0f2650d5e78f02a2b37e6b06ded0702
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Jan 26 17:16:22 2022 -0600
+
+    add new body > index.html
+
+commit cd16965e9624415d88e5fd85c85fbf0f66954849
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Jan 26 17:07:41 2022 -0600
+
+    initial commit > index.html
+
+commit 818a51ee87fdaf083f4ea00b412c0895113f11df
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Jan 26 04:50:07 2022 -0600
+
+    deleting extra index file
+
+commit efbca7253804b2589e56f08e35830ca8a12a69e5
+Author: Rachel Seals <rach.e.seals@outlook.com>
+Date:   Wed Jan 26 04:31:18 2022 -0600
+
+    commit index.html
+
+commit 0f93f1bed4e8cedf91d336304e2da163b61346c6
+Author: reseal16 <98142317+reseal16@users.noreply.github.com>
+Date:   Wed Jan 26 03:30:30 2022 -0600
+
+    Initial commit
