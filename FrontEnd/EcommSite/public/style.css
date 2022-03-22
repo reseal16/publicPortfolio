@@ -1,0 +1,84 @@
+ul#navbar{
+    list-style: none;
+    display: flex;
+
+
+}
+
+h2{
+    background: rgb(168, 243, 145);
+
+}
+
+div#navbar{
+    background: rgb(241, 175, 175);
+    border: 1px #000;
+    width: 100%;
+    height: 50px;
+
+}
+li#navbar{
+    display:block;
+    float: left;
+    height: 50px;
+
+}
+
+button#navbar{
+    height:45px;
+}
+
+button.browse{
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background: transparent;
+}
+
+img.browse{
+    height: 175px;
+    width: 175px;
+    border:1px solid #000;
+
+}
+
+div#header{
+    background: rgb(248, 190, 145);
+
+}
+
+div#browseItm{
+    background:rgb(244, 250, 164);
+
+}
+div#prodpage{
+    background: rgb(159, 249, 255);
+
+}
+
+div#cart{
+    background: rgb(121, 152, 255);
+}
+
+div#checkout{
+    background: rgb(246, 175, 255);
+
+}
+
+div#confirm{
+    background: rgb(51, 255, 51);
+
+}
+
+img.prodpage{
+    height: 300px;
+    width: 300px;
+
+}
+
+img.cart{
+    height:50px;
+    width: 50px;
+
+}

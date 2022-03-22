@@ -1,0 +1,137 @@
+.container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: left;
+    align-items:center;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    padding: 10px;
+}
+
+div{
+    height:500px;
+
+}
+
+img{
+    padding:15px;
+}
+
+#sedans{
+    color: #E28525;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: currentColor;
+    height:500px;
+}
+
+#suvs{
+    color: #016972;
+    background-color: currentColor;
+    height:500px;
+}
+
+#luxury{
+    color: #00403F;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: currentColor;
+    height:500px;
+}
+
+@font-face {
+    font-family: bigShould;
+    src: url(fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+    font-weight: 700;
+
+}
+
+@font-face {
+    font-family: Lexend;
+    src: url(fonts/lexend/LexendDeca-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: bigShould;
+    font-weight: 700;
+    margin:15px;
+
+}
+
+p {
+    color: hsl(0, 0%, 100%, 0.75);
+    font-family: Lexend;
+    font-weight: 400;
+    margin:15px;
+
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    color: currentColor;
+    background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    border-style: solid;
+    font-family: Lexend;
+    margin: 15px;
+    
+}
+
+button:hover {
+    background-color: transparent;
+    border-color: hsl(0, 0%, 95%);
+    box-shadow: 0;
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+
+}
+
+@media only screen and (min-width: 600px){
+    div{
+    width:33%;
+    height:400px;
+    background-color: currentColor;
+    }
+
+    .container{
+        display:flex;
+        flex-direction:row;
+        width: 100%;
+        background-color: hsl(0, 0%, 95%);
+    
+    }
+    div#sedans {
+        color: #E28525;
+        width:33%;
+        height:400px;
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 0px;
+    
+    }
+    
+    div#suvs{
+        color: #016972;
+        width:33%;
+        height:400px;
+
+    }
+    
+    div#luxury{
+        color: #00403F;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        height:400px;
+
+    }
+    
+}
