@@ -2,7 +2,7 @@ package com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.mealBuildin
 
 import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.mealBuilding.Drink;
 import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.mealBuilding.Fish;
-import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.customization.MakeItCustom;
+import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.customization.CustomizationOptions;
 import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.mealBuilding.Side;
 
 import java.util.ArrayList;
@@ -18,9 +18,9 @@ public class GrampasCatch{
 
     public void grampasFish() {
         grampasFish = new Fish();
-        grampasFish.setFish(MakeItCustom.setFish(1));
-        grampasFish.setCut(MakeItCustom.setCut(1));
-        grampasFish.setBreading(MakeItCustom.setBreading(1));
+        grampasFish.setFish(CustomizationOptions.setFish(1));
+        grampasFish.setCut(CustomizationOptions.setCut(1));
+        grampasFish.setBreading(CustomizationOptions.setBreading(1));
 
         newComboMeal.add(grampasFish.getFish()+" "+grampasFish.getCut()+" "+grampasFish.getBreading());
 
@@ -29,15 +29,15 @@ public class GrampasCatch{
     public void grampasSide(){
         grampasSide = new Side();
         System.out.println("Whatcha want with it?");
-        System.out.println(MakeItCustom.getSide());
+        System.out.println(CustomizationOptions.getSide());
         int i = input.nextInt();
-        grampasSide.setSide(MakeItCustom.setSide(i));
+        grampasSide.setSide(CustomizationOptions.setSide(i));
 
         System.out.println("How much?");
-        System.out.println(MakeItCustom.getSize());
+        System.out.println(CustomizationOptions.getSize());
         i = input.nextInt();
 
-        grampasSide.setSize(MakeItCustom.setSize(i));
+        grampasSide.setSize(CustomizationOptions.setSize(i));
 
         newComboMeal.add(grampasSide.getSize() +" "+ grampasSide.getSide());
 
@@ -46,15 +46,15 @@ public class GrampasCatch{
     public void grampasDrink(){
         grampasDrink = new Drink();
         System.out.println("Whatcha wanna drink?");
-        System.out.println(MakeItCustom.getDrink());
+        System.out.println(CustomizationOptions.getDrink());
         int i = input.nextInt();
-        grampasDrink.setDrink(MakeItCustom.setDrink(i));
+        grampasDrink.setDrink(CustomizationOptions.setDrink(i));
 
         System.out.println("How big?");
-        System.out.println(MakeItCustom.getSize());
+        System.out.println(CustomizationOptions.getSize());
         i = input.nextInt();
 
-        grampasDrink.setSize(MakeItCustom.setSize(i));
+        grampasDrink.setSize(CustomizationOptions.setSize(i));
 
         newComboMeal.add(grampasDrink.getSize() +" "+ grampasDrink.getDrink());
 

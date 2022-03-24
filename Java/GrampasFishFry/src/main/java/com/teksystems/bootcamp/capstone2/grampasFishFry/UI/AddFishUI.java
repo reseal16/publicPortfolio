@@ -1,7 +1,7 @@
 package com.teksystems.bootcamp.capstone2.grampasFishFry.UI;
 
 import com.teksystems.bootcamp.capstone2.grampasFishFry.Main;
-import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.customization.MakeItCustom;
+import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.customization.CustomizationOptions;
 import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.mealBuilding.Fish;
 import com.teksystems.bootcamp.capstone2.grampasFishFry.orderProcessing.Orders;
 
@@ -17,32 +17,32 @@ public class AddFishUI {
         int i;
 
         System.out.println("What kind of fish?");
-        System.out.println(MakeItCustom.getFish());
+        System.out.println(CustomizationOptions.getFish());
 
         i = input.nextInt();
         switch(i){
             case 1:
             case 2:
             case 3:
-                yourFish.setFish(MakeItCustom.setFish(i));
+                yourFish.setFish(CustomizationOptions.setFish(i));
 
                 System.out.println("How ya want that cut?");
-                System.out.println(MakeItCustom.getCut());
+                System.out.println(CustomizationOptions.getCut());
 
                 i=input.nextInt();
-                yourFish.setCut(MakeItCustom.setCut(i));
+                yourFish.setCut(CustomizationOptions.setCut(i));
                 break;
             case 4:
-                yourFish.setFish(MakeItCustom.setFish(i));
+                yourFish.setFish(CustomizationOptions.setFish(i));
                 break;
             }
 
 
         System.out.println("How ya want it breaded?");
-        System.out.println(MakeItCustom.getBreading());
+        System.out.println(CustomizationOptions.getBreading());
 
         i=input.nextInt();
-        yourFish.setBreading(MakeItCustom.setBreading(i));
+        yourFish.setBreading(CustomizationOptions.setBreading(i));
 
         newFish.add(yourFish.getFish() + " " + yourFish.getCut() + " " + yourFish.getBreading());
 
@@ -50,7 +50,7 @@ public class AddFishUI {
         System.out.println(newFish + " added to order");
 
         newFish.clear();
-        Main.programStart();
+        ProgramStart.programStart();
 
     }
 
