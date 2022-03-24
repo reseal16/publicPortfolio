@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class AddDrinkUI {
     private static ArrayList<String> newDrink = new ArrayList<>();
 
-    public static void createNewDrink() {
+    public static void createNewDrinkItem() {
         Scanner input = new Scanner(System.in);
         Drink yourDrink = new Drink();
         int i;

@@ -18,7 +18,7 @@ public class ALaCarteMenu {
             case 2:
 
             case 3:
-                AddDrinkUI.createNewDrink();
+                AddDrinkUI.createNewDrinkItem();
                 break;
             default:
                 System.out.println("Hold up, let's start over on that");
