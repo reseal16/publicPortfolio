@@ -3,7 +3,7 @@ package com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.customizati
 import java.util.HashMap;
 import java.util.List;
 
-public class MakeItCustom {
+public class CustomizationOptions {
     private static HashMap breading = new HashMap<List<Integer>, String>();
     private static HashMap fish = new HashMap<List<Integer>, String>();
     private static HashMap toppings = new HashMap<List<Integer>, String>();

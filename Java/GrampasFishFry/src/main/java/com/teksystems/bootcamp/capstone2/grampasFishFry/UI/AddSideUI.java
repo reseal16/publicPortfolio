@@ -1,7 +1,7 @@
 package com.teksystems.bootcamp.capstone2.grampasFishFry.UI;
 
 import com.teksystems.bootcamp.capstone2.grampasFishFry.Main;
-import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.customization.MakeItCustom;
+import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.customization.CustomizationOptions;
 import com.teksystems.bootcamp.capstone2.grampasFishFry.menuOptions.mealBuilding.Side;
 import com.teksystems.bootcamp.capstone2.grampasFishFry.orderProcessing.Orders;
 
@@ -16,15 +16,15 @@ public class AddSideUI {
         int i;
 
         System.out.println("Whatcha want with it?");
-        System.out.println(MakeItCustom.getSide());
+        System.out.println(CustomizationOptions.getSide());
         i = input.nextInt();
-        yourSide.setSide(MakeItCustom.setSide(i));
+        yourSide.setSide(CustomizationOptions.setSide(i));
 
         System.out.println("How much?");
-        System.out.println(MakeItCustom.getSize());
+        System.out.println(CustomizationOptions.getSize());
         i =input.nextInt();
 
-        yourSide.setSize(MakeItCustom.setSize(i));
+        yourSide.setSize(CustomizationOptions.setSize(i));
 
         newSide.add(yourSide.getSize()+" "+yourSide.getSide());
 
@@ -32,7 +32,7 @@ public class AddSideUI {
         System.out.println(newSide + " added to order");
 
         newSide.clear();
-        Main.programStart();
+        ProgramStart.programStart();
 
     }
 }

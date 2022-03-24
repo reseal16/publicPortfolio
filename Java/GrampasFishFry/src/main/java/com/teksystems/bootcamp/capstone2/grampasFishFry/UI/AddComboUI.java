@@ -16,7 +16,7 @@ public class AddComboUI {
         String adding = String.valueOf(createCombo.getGrampasCatch());
         Orders.addToOrder(adding);
         System.out.println("Added "+ createCombo.getGrampasCatch());
-        Main.programStart();
+        ProgramStart.programStart();
     }
 
     public static void grammasFave(){
@@ -28,6 +28,6 @@ public class AddComboUI {
         String adding = String.valueOf(createCombo.getGrammasFave());
         Orders.addToOrder(adding);
         System.out.println("Added "+ createCombo.getGrammasFave());
-        Main.programStart();
+        ProgramStart.programStart();
     }
 }
